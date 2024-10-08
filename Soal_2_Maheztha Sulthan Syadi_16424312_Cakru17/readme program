@@ -1,0 +1,15 @@
+Kelas Robot:
+Mewakili robot dengan atribut seperti name, health, attack_power, dan defense.
+Metode attack digunakan untuk menyerang robot lawan, menghitung damage berdasarkan attack_power robot yang menyerang dan defense robot lawan.
+Metode take_damage digunakan untuk mengurangi health robot.
+Metode is_alive untuk mengecek apakah robot masih hidup.
+
+Kelas Battle:
+Mewakili pertarungan antara dua robot.
+Metode start_fight melakukan pertarungan secara bergantian hingga salah satu robot kalah.
+
+Kelas Game:
+Mewakili permainan keseluruhan yang mengelola daftar robot dan memulai pertarungan.
+Metode add_robot digunakan untuk menambahkan robot ke daftar.
+Metode choose_robot meminta pemain untuk memilih robot dari daftar.
+Metode start_game memulai pertarungan antara dua robot yang dipilih.
